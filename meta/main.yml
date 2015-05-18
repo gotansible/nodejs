@@ -85,7 +85,7 @@ galaxy_info:
   #  - 11SP2
   #  - 11SP3
   #
-  #categories:
+  categories:
   #- cloud
   #- cloud:ec2
   #- cloud:gce
