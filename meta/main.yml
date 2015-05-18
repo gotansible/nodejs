@@ -2,25 +2,18 @@
 dependencies: []
 
 galaxy_info:
-  author: your name
-  description: 
-  company: your company (optional)
-  license: license (GPLv2, CC-BY, etc)
+  author: Franklin Wise
+  description: Installs NodeJS
+  company: 
+  license: MIT
   min_ansible_version: 1.8
-  #platforms:
-  #- name: Ubuntu
-  #  versions:
-  #  - all
-  #  - lucid
-  #  - maverick
-  #  - natty
-  #  - oneiric
-  #  - precise
-  #  - quantal
-  #  - raring
+  platforms:
+  - name: Ubuntu
+    versions:
+    - precise
   #  - saucy
-  #  - trusty
-  #- name: Debian
+    - trusty
+  - name: Debian
   #  versions:
   #  - all
   #  - etch
@@ -101,10 +94,10 @@ galaxy_info:
   #- database
   #- database:nosql
   #- database:sql
-  #- development
+  - development
   #- monitoring
   #- networking
   #- packaging
   #- system
-  #- web
+  - web
 
