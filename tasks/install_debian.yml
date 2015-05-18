@@ -2,6 +2,8 @@
 
 - name: setup nodesouce apt
   shell: curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
+  args:
+    creates: /etc/apt/sources.list.d/nodesource.list
 
 - name: depend - install apt packages
   apt:

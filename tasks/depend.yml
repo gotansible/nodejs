@@ -11,3 +11,4 @@
     - libssl-dev
     - git
     - curl
+  when: ansible_os_family == 'Debian'
