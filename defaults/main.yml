@@ -1,0 +1,6 @@
+---
+
+#if numeric, include the 'v'
+nodejs_version: v0.12.3
+nodejs_npm_version: 0.25.1
+nodejs_build_dir: /tmp/nodejs
