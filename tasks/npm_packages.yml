@@ -1,0 +1,5 @@
+---
+
+- name: npm packages - global
+  command: npm install -g {{ item }}
+  with_items: nodejs_packages_global
